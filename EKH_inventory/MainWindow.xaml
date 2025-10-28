@@ -1,0 +1,23 @@
+﻿<Window x:Class="EKH_inventory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EKH_inventory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="AliceBlue" Margin="10">
+        <StackPanel HorizontalAlignment="Center" Margin="0,80" Width="450" Height="250">
+            <Border Width="450" Height="250" Background="#FFB2CEE6" CornerRadius="15">
+                <StackPanel>
+                    <Label Content="Welcome🎀💕" FontFamily="Comic Sans MS" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+                    <Label Width="100" Height="30" HorizontalAlignment="Center" Margin="10,10,0,0" Content="User Name" FontWeight="Bold" FontStyle="Italic"/>
+                    <TextBox x:Name="text1" Width="150" Height="25" HorizontalAlignment="Center" Margin="10,5,0,0"/>
+                    <Label Width="100" Height="30" HorizontalAlignment="Center" Margin="10,10,0,0" Content="Password" FontWeight="Bold" FontStyle="Italic"/>
+                    <TextBox x:Name="text2" Width="150" Height="25" HorizontalAlignment="Center" Margin="10,5,0,0"/>
+                    <Button Width="80" Height="30" HorizontalAlignment="Center" Margin="0,20,0,0" Content="Login" BorderBrush="Black" BorderThickness="2" Background="Black" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontSize="14" Click="Button_Click"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
